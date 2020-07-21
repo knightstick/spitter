@@ -1,1 +1,14 @@
 <h1>Spitter</h1>
+
+<%= form_with model: @spit do |f| %>
+  <%= f.text_field :body %>
+  <%= f.submit 'Spit' %>
+<% end %>
+
+<h2>Spits</h2>
+
+<%= @spits.each do |spit| %>
+  <div class="spit">
+    <p class="spit_body"><%= spit.body %></p>
+  </div>
+<% end %>
