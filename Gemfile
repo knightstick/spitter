@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'rubocop'
 
+gem 'capybara'
 gem 'rspec-rails', '~> 4.0.1'
 
 # Reduces boot times through caching; required in config/boot.rb
